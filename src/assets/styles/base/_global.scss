@@ -1,26 +1,12 @@
-@import './normalize',
-'./flex-box',
-'./rem',
-'./icons',
-'./root',
-'./shared',
-
-// modules
-'../modules/container',
-'../modules/buttons',
-'../modules/checked',
-'../modules/date-time-range-picker',
-'../modules/date',
-'../modules/dropdown-select',
-'../modules/input-textarea',
-'../modules/main-section',
-'../modules/modals-blocks',
-'../modules/pagination',
-'../modules/scrollbar',
-'../modules/table',
-'../modules/cursors';
-
-
+@import "./normalize", "./flex-box", "./rem", "./icons", "./root", "./margin-x",
+  "./shared",
+  // modules
+  "../modules/container",
+  "../modules/buttons", "../modules/checked",
+  "../modules/date-time-range-picker", "../modules/date",
+  "../modules/dropdown-select", "../modules/input-textarea",
+  "../modules/main-section", "../modules/modals-blocks", "../modules/pagination",
+  "../modules/scrollbar", "../modules/table", "../modules/cursors";
 
 // //  html
 
@@ -28,11 +14,6 @@
 //    background-color: var(--body_bg);
 //    font-size: rem(15px);
 // }
-
-
-
-
-
 
 // // section-title -- START
 // .section-title {
@@ -46,7 +27,6 @@
 // }
 
 // // section-title -- END
-
 
 // // line-clamp -- START
 // .line-clamp {
@@ -70,7 +50,6 @@
 
 // // line-clamp -- END
 
-
 // // overflow-hidden -- START
 // .overflow-hidden,
 // .modal-overflow {
@@ -89,9 +68,6 @@
 // }
 
 // // display block -- END
-
-
-
 
 // @import // modules
 // '../modules/buttons',
